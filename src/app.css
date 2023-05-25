@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h1 {
+    @apply !bg-[#444653] !font-sans !text-white !font-bold !text-xl !text-center !mx-auto !mb-4 !py-4 !px-8 !w-fit !rounded-xl !border-[1px] !border-white;
+    }
+
+  h2 {
+    @apply !bg-[#444653] !font-sans !text-white !font-bold !text-xl !text-center !py-4 !px-8 !w-fit !rounded-xl !border-[1px] !border-white;
+  }
+
+  p {
+    @apply !bg-[#353541] !font-sans !text-white;
+  }
+  span {
+    @apply !bg-[#353541] !font-sans !text-white;
+  }
+
+  main {
+    @apply !bg-[#353541] !font-sans !text-white;
+  }
+
+  div {
+    @apply !border-white !font-sans;
+  }
+
+  /* a {
+    @apply !font-sans !text-blue-200 hover:!text-blue-300 !no-underline;
+  } */
+
+  /* p img {
+    display: block;
+    margin: 0 auto;
+    @apply !rounded-xl !drop-shadow-lg !bg-[#444653]  !mb-4 !mt-4;
+  } */
+
+  p img {
+    display: block;
+    margin: 0 auto;
+    @apply !rounded-xl !drop-shadow-lg !bg-white  !mb-4 !mt-4 !brightness-90;
+  }
+
+  table {
+    display: block;
+    margin: 0 auto;
+    @apply !rounded-xl !drop-shadow-lg !bg-[#444653]  !mb-4 !mt-4 !w-fit !mx-auto;
+  }
+
+  td {
+    @apply !rounded-xl !drop-shadow-lg !bg-transparent;
+  }
+
+  table p {
+    @apply !bg-transparent !font-sans !text-white;
+  }
+
+  table span {
+    @apply !bg-transparent !font-sans !text-white;
+  }
+}

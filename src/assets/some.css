@@ -1,0 +1,596 @@
+/* Style Definitions */
+p.MsoNormal,
+li.MsoNormal,
+div.MsoNormal {
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+h1 {
+  mso-style-link: 'Заголовок 1 Знак';
+  margin-top: 12pt;
+
+  margin-bottom: 3pt;
+
+  text-align: center;
+  text-indent: 1cm;
+  page-break-after: avoid;
+  font-size: 16pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  text-transform: uppercase;
+  font-weight: normal;
+}
+h2 {
+  mso-style-link: 'Заголовок 2 Знак';
+  margin-top: 2pt;
+  page-break-after: avoid;
+  font-size: 15pt;
+  font-family: 'Calibri Light', sans-serif;
+  color: #d4aae3 !important ;
+  font-weight: bold;
+}
+h3 {
+  mso-style-link: 'Заголовок 3 Знак';
+  margin-top: 12pt;
+
+  margin-bottom: 3pt;
+
+  page-break-after: avoid;
+  font-size: 13pt;
+  font-family: 'Arial', sans-serif;
+  /* color: windowtext; */
+  font-weight: bold;
+}
+h4 {
+  mso-style-link: 'Заголовок 4 Знак';
+  margin-top: 12pt;
+
+  margin-bottom: 3pt;
+
+  page-break-after: avoid;
+  font-size: 14pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  font-weight: bold;
+}
+h6 {
+  mso-style-link: 'Заголовок 6 Знак';
+  margin-top: 12pt;
+
+  margin-bottom: 3pt;
+
+  font-size: 11pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  font-weight: bold;
+}
+p.MsoHeading7,
+li.MsoHeading7,
+div.MsoHeading7 {
+  mso-style-link: 'Заголовок 7 Знак';
+  margin-top: 12pt;
+
+  margin-bottom: 3pt;
+
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoToc1,
+li.MsoToc1,
+div.MsoToc1 {
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoToc2,
+li.MsoToc2,
+div.MsoToc2 {
+  margin-left: 12pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoToc3,
+li.MsoToc3,
+div.MsoToc3 {
+  margin-left: 24pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoToc4,
+li.MsoToc4,
+div.MsoToc4 {
+  margin-bottom: 5pt;
+  margin-left: 33pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoToc5,
+li.MsoToc5,
+div.MsoToc5 {
+  margin-bottom: 5pt;
+  margin-left: 44pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoToc6,
+li.MsoToc6,
+div.MsoToc6 {
+  margin-bottom: 5pt;
+  margin-left: 55pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoToc7,
+li.MsoToc7,
+div.MsoToc7 {
+  margin-bottom: 5pt;
+  margin-left: 66pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoToc8,
+li.MsoToc8,
+div.MsoToc8 {
+  margin-bottom: 5pt;
+  margin-left: 77pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoToc9,
+li.MsoToc9,
+div.MsoToc9 {
+  margin-bottom: 5pt;
+  margin-left: 88pt;
+  line-height: 107%;
+  font-size: 11pt;
+  font-family: 'Calibri', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoHeader,
+li.MsoHeader,
+div.MsoHeader {
+  mso-style-link: 'Верхний колонтитул Знак';
+
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoFooter,
+li.MsoFooter,
+div.MsoFooter {
+  mso-style-link: 'Нижний колонтитул Знак';
+
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoCaption,
+li.MsoCaption,
+div.MsoCaption {
+  font-size: 10pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  font-weight: bold;
+}
+p.MsoBodyText,
+li.MsoBodyText,
+div.MsoBodyText {
+  mso-style-link: 'Основной текст Знак';
+
+  margin-bottom: 6pt;
+
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoBodyTextIndent,
+li.MsoBodyTextIndent,
+div.MsoBodyTextIndent {
+  mso-style-link: 'Основной текст с отступом Знак';
+
+  margin-bottom: 6pt;
+  margin-left: 14.15pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoBodyText2,
+li.MsoBodyText2,
+div.MsoBodyText2 {
+  mso-style-link: 'Основной текст 2 Знак';
+
+  margin-bottom: 6pt;
+
+  line-height: 200%;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoBodyText3,
+li.MsoBodyText3,
+div.MsoBodyText3 {
+  mso-style-link: 'Основной текст 3 Знак';
+
+  margin-bottom: 6pt;
+
+  font-size: 8pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoBodyTextIndent2,
+li.MsoBodyTextIndent2,
+div.MsoBodyTextIndent2 {
+  mso-style-link: 'Основной текст с отступом 2 Знак';
+
+  margin-bottom: 6pt;
+  margin-left: 14.15pt;
+  line-height: 200%;
+  font-size: 10pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoBodyTextIndent3,
+li.MsoBodyTextIndent3,
+div.MsoBodyTextIndent3 {
+  mso-style-link: 'Основной текст с отступом 3 Знак';
+
+  margin-bottom: 6pt;
+  margin-left: 14.15pt;
+  font-size: 8pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+a:link,
+span.MsoHyperlink {
+  color: #208bc5;
+  text-decoration: underline;
+}
+a:visited,
+
+p {
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: black; */
+}
+p.MsoAcetate,
+li.MsoAcetate,
+div.MsoAcetate {
+  mso-style-link: 'Текст выноски Знак';
+
+  font-size: 9pt;
+  font-family: 'Segoe UI', sans-serif;
+  /* color: windowtext; */
+}
+p.MsoListParagraph,
+li.MsoListParagraph,
+div.MsoListParagraph {
+  margin-left: 36pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoListParagraphCxSpFirst,
+li.MsoListParagraphCxSpFirst,
+div.MsoListParagraphCxSpFirst {
+  margin-left: 36pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoListParagraphCxSpMiddle,
+li.MsoListParagraphCxSpMiddle,
+div.MsoListParagraphCxSpMiddle {
+  margin-left: 36pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoListParagraphCxSpLast,
+li.MsoListParagraphCxSpLast,
+div.MsoListParagraphCxSpLast {
+  margin-left: 36pt;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.MsoTocHeading,
+li.MsoTocHeading,
+div.MsoTocHeading {
+  margin-top: 12pt;
+
+  line-height: 107%;
+  page-break-after: avoid;
+  font-size: 16pt;
+  font-family: 'Calibri Light', sans-serif;
+  color: #208bc5;
+}
+p.Head,
+li.Head,
+div.Head {
+  mso-style-name: Head;
+  mso-style-link: 'Head Знак';
+
+  text-align: center;
+  font-size: 14pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+span.Head0 {
+  mso-style-name: 'Head Знак';
+  mso-style-link: Head;
+  font-family: 'Times New Roman', serif;
+}
+span.2 {
+  mso-style-name: 'Основной текст 2 Знак';
+  mso-style-link: 'Основной текст 2';
+  font-family: 'Times New Roman', serif;
+}
+span.1 {
+  mso-style-name: 'Заголовок 1 Знак';
+  mso-style-link: 'Заголовок 1';
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+span.a {
+  mso-style-name: 'Верхний колонтитул Знак';
+  mso-style-link: 'Верхний колонтитул';
+  font-family: 'Times New Roman', serif;
+}
+span.a0 {
+  mso-style-name: 'Нижний колонтитул Знак';
+  mso-style-link: 'Нижний колонтитул';
+  font-family: 'Times New Roman', serif;
+}
+span.20 {
+  mso-style-name: 'Заголовок 2 Знак';
+  mso-style-link: 'Заголовок 2';
+  font-family: 'Calibri Light', sans-serif;
+  color: #2e74b5;
+}
+p.10,
+li.10,
+div.10 {
+  mso-style-name: Обычный1;
+  mso-style-link: 'Normal Знак';
+
+  font-size: 11pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  layout-grid-mode: line;
+}
+span.Normal {
+  mso-style-name: 'Normal Знак';
+  mso-style-link: Обычный1;
+  font-family: 'Times New Roman', serif;
+  layout-grid-mode: both;
+}
+p.a1,
+li.a1,
+div.a1 {
+  mso-style-name: 'Знак Знак Знак Знак';
+
+  margin-bottom: 8pt;
+
+  text-align: right;
+  line-height: 12pt;
+  font-size: 10pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+span.4 {
+  mso-style-name: 'Заголовок 4 Знак';
+  mso-style-link: 'Заголовок 4';
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+span.apple-converted-space {
+  mso-style-name: apple-converted-space;
+}
+p.Style3,
+li.Style3,
+div.Style3 {
+  mso-style-name: Style3;
+
+  text-autospace: none;
+  font-size: 12pt;
+  font-family: 'Cambria', serif;
+  /* color: windowtext; */
+}
+span.FontStyle25 {
+  mso-style-name: 'Font Style25';
+  font-family: 'Cambria', serif;
+  letter-spacing: -0.5pt;
+}
+span.3 {
+  mso-style-name: 'Заголовок 3 Знак';
+  mso-style-link: 'Заголовок 3';
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+span.a2 {
+  mso-style-name: 'Основной текст Знак';
+  mso-style-link: 'Основной текст';
+  font-family: 'Times New Roman', serif;
+}
+span.a3 {
+  mso-style-name: 'Основной текст с отступом Знак';
+  mso-style-link: 'Основной текст с отступом';
+  font-family: 'Times New Roman', serif;
+}
+span.21 {
+  mso-style-name: 'Основной текст с отступом 2 Знак';
+  mso-style-link: 'Основной текст с отступом 2';
+  font-family: 'Times New Roman', serif;
+}
+span.30 {
+  mso-style-name: 'Основной текст с отступом 3 Знак';
+  mso-style-link: 'Основной текст с отступом 3';
+  font-family: 'Times New Roman', serif;
+}
+span.6 {
+  mso-style-name: 'Заголовок 6 Знак';
+  mso-style-link: 'Заголовок 6';
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+p.Style1,
+li.Style1,
+div.Style1 {
+  mso-style-name: Style1;
+
+  text-align: justify;
+  text-indent: 34.05pt;
+  line-height: 24.05pt;
+  text-autospace: none;
+  font-size: 12pt;
+  font-family: 'Cambria', serif;
+  /* color: windowtext; */
+}
+span.7 {
+  mso-style-name: 'Заголовок 7 Знак';
+  mso-style-link: 'Заголовок 7';
+  font-family: 'Times New Roman', serif;
+}
+p.22,
+li.22,
+div.22 {
+  mso-style-name: Обычный2;
+
+  font-size: 10pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  layout-grid-mode: line;
+}
+span.31 {
+  mso-style-name: 'Основной текст 3 Знак';
+  mso-style-link: 'Основной текст 3';
+  font-family: 'Times New Roman', serif;
+}
+p.a4,
+li.a4,
+div.a4 {
+  mso-style-name: Разряженный;
+  mso-style-link: 'Разряженный Знак';
+
+  text-align: justify;
+  text-indent: 1cm;
+  /* background: white; */
+  font-size: 14pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+  letter-spacing: 3pt;
+  layout-grid-mode: line;
+}
+span.a5 {
+  mso-style-name: 'Разряженный Знак';
+  mso-style-link: Разряженный;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: 3pt;
+  /* background: white; */
+  layout-grid-mode: both;
+}
+span.a6 {
+  mso-style-name: 'Текст выноски Знак';
+  mso-style-link: 'Текст выноски';
+  font-family: 'Segoe UI', sans-serif;
+}
+span.reference-text {
+  mso-style-name: reference-text;
+}
+p.11,
+li.11,
+div.11 {
+  mso-style-name: Текст1;
+
+  text-align: justify;
+  text-indent: 35.45pt;
+  font-size: 10pt;
+  font-family: 'Courier New';
+  /* color: windowtext; */
+}
+p.a7,
+li.a7,
+div.a7 {
+  mso-style-name: a;
+
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.12,
+li.12,
+div.12 {
+  mso-style-name: 'Знак Знак1 Знак Знак';
+
+  margin-bottom: 8pt;
+
+  text-align: right;
+  line-height: 12pt;
+  font-size: 10pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+p.Common,
+li.Common,
+div.Common {
+  mso-style-name: Common;
+  mso-style-link: 'Common Знак';
+
+  text-align: justify;
+  text-indent: 1cm;
+  font-size: 14pt;
+  font-family: 'Times New Roman', serif;
+  /* color: windowtext; */
+}
+span.Common0 {
+  mso-style-name: 'Common Знак';
+  mso-style-link: Common;
+  font-family: 'Arial', sans-serif;
+}
+span.msoIns {
+  mso-style-name: '';
+  text-decoration: underline;
+  color: teal;
+}
+span.msoDel {
+  mso-style-name: '';
+  text-decoration: line-through;
+  color: red;
+}
+.MsoChpDefault {
+  font-family: 'Calibri', sans-serif;
+}
+/* Page Definitions */
+@page WordSection1 {
+  size: 595.3pt 841.9pt;
+  margin: 2cm 42.5pt 2cm 3cm;
+}
+div.WordSection1 {
+  page: WordSection1;
+}
+@page WordSection2 {
+  size: 595.3pt 841.9pt;
+  margin: 2cm 2cm 2cm 70.9pt;
+}
+div.WordSection2 {
+  page: WordSection2;
+}
+/* List Definitions */
+ol {
+}
+ul {
+}
